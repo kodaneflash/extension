@@ -1,0 +1,22 @@
+{
+   "action": {
+      "default_title": "Start the extension"
+   },
+   "background": {
+      "service_worker": "./build/background.js"
+   },
+   "description": "Bring your own website into Framer with a few clicks. Simply copy and paste web elements and edit them directly in Framer.",
+   "host_permissions": [ "https://*/*" ],
+   "icons": {
+      "128": "icons/default/icon128.png",
+      "16": "icons/default/icon16.png",
+      "32": "icons/default/icon32.png",
+      "48": "icons/default/icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAiwS1mjqQfkSP/TLKrLbYGrjOlqRvJvyPp580MAel5W0pGb/7jT+Bmzd1iYFGqUUX3K/dYUi89dWZoSnN8wO5RzUurA5g8iW6K0kpMxxechIaqVjQrMVkaEcjssoO5a9WsEIZ5Cei9ntxAqWy3OP3GB3RpjFbREpisjexP1TG66eW1vS5Js/WFKEySizN3MXeKg6Fy4e0udH9Y/xn5xqV/R7xsmF1NzubK7V5UdS1+UGYI64+VhKuuGVvt5fzsMKQhsgabkgkQXau5FMlVIvZKPUTDBPyHIiVLIRXr6zH+jrjgnspda/tO2DvqjSRBg8FRNMRItl3E7PwXG2MD7pOwQIDAQAB",
+   "manifest_version": 3,
+   "name": "HTML to Framer",
+   "permissions": [ "activeTab", "scripting", "webNavigation" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.6"
+}
